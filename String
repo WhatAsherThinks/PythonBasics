@@ -1,0 +1,18 @@
+parrot = "Norwegian Blue"
+
+print(len(parrot))
+print(parrot.lower())
+print(parrot.upper())
+
+pi = 3.14
+print(str(pi))
+
+print "The value of pi is around " + str(3.14)
+
+# date time
+from datetime import datetime
+now = datetime.now()
+# the '%02d' cushions the string with two '0' making space for
+# two digits in the variable we replace it with later 'now.month'
+print('%02d/%02d/%04d') % (now.month, now.day, now.year)
+print('%02d:%02d:%02d')% (now.hour, now.minute, now.second)
